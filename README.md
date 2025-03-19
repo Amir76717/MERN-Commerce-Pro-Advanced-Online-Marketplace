@@ -5,7 +5,7 @@ MERN Commerce Pro is a cutting-edge online marketplace designed to facilitate ro
 
 ### [Live Demo](http://marketplace2.mernbook.com/ "MERN Marketplace")
 
-#### Prerequisites
+### Prerequisites
 To run this application, you will need:
 - Node.js (v13.12.0)
 - NPM (v6.14.4) or Yarn (v1.22.4)
