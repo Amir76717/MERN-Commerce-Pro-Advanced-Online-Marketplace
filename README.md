@@ -1,59 +1,60 @@
-# MERN-Commerce-Pro-Advanced-Online-Marketplace
-MERN Commerce Pro is a cutting-edge online marketplace designed to facilitate robust e-commerce activities, including live auctions, seamless shopping experiences, and secure payment processing. Built using the MERN stack, this platform is tailored for businesses looking to offer a dynamic online shopping environment.
+# MERN Marketplace 2.0
+- *Looking for the first edition code? [Check here](https://github.com/shamahoque/mern-marketplace/tree/master)*
+
+An online marketplace application with seller accounts, product search and suggestions, shopping cart, order management, payment processing with Stripe, and live auction with Socket.io - developed using React, Node, Express and MongoDB. 
 
 <img align="center" src="https://s3.amazonaws.com/mernbook/git+/marketplace.png" width="56%"> <img align="center" src="https://mernbook.s3.amazonaws.com/git+/marketplace-bidding.png" width="42%">
 
 ### [Live Demo](http://marketplace2.mernbook.com/ "MERN Marketplace")
 
-### Prerequisites
-To run this application, you will need:
-- Node.js (v13.12.0)
-- NPM (v6.14.4) or Yarn (v1.22.4)
-- MongoDB (v4.2.0)
-- A Stripe account (for handling payments)
+#### What you need to run this code
+1. Node (13.12.0)
+2. NPM (6.14.4) or Yarn (1.22.4)
+3. MongoDB (4.2.0)
+4. Stripe account with test data
 
-###  🚀 Quick Start
-1. Ensure MongoDB is running on your system.
+####  How to run this code
+1. Make sure MongoDB is running on your system 
+2. Clone this repository
+3. Update config/config.js with your test values for Stripe API keys and Stripe Connect Client ID 
+4. Open command line in the cloned folder,
+   - To install dependencies, run ```  npm install  ``` or ``` yarn ```
+   - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
+5. Open [localhost:3000](http://localhost:3000/) in the browser
+---- 
+### More applications built using this stack
 
-2. Clone the repository:
+* [MERN Skeleton](https://github.com/shamahoque/mern-social/tree/second-edition)
+* [MERN Social](https://github.com/shamahoque/mern-social/tree/second-edition)
+* [MERN Classroom](https://github.com/shamahoque/mern-classroom)
+* [MERN Expense Tracker](https://github.com/shamahoque/mern-expense-tracker)
+* [MERN Mediastream](https://github.com/shamahoque/mern-mediastream/tree/second-edition)
+* [MERN VR Game](https://github.com/shamahoque/mern-vrgame/tree/second-edition)
 
-         git clone https://github.com/your-username/MERN-Commerce-Pro.git
-         cd MERN-Commerce-Pro
+Learn more at [mernbook.com](http://www.mernbook.com/)
 
-3. Configure your environment:
-   
-   Update config/config.js with your Stripe API keys and other configurations.
+----
+## Get the book
+#### [Full-Stack React Projects - Second Edition](https://www.packtpub.com/web-development/full-stack-react-projects-second-edition)
+*Learn MERN stack development by building modern web apps using MongoDB, Express, React, and Node.js*
 
-4. Install dependencies:
+<a href="https://www.packtpub.com/web-development/full-stack-react-projects-second-edition"><img src="https://mernbook.s3.amazonaws.com/git+/Book_2Ed.jpg" align="center" width="400" alt="Full-Stack React Projects"></a>
 
-         npm install  # or yarn install
+React combined with industry-tested, server-side technologies, such as Node, Express, and MongoDB, enables you to develop and deploy robust real-world full-stack web apps. This updated second edition focuses on the latest versions and conventions of the technologies in this stack, along with their new features such as Hooks in React and async/await in JavaScript. The book also explores advanced topics such as implementing real-time bidding, a web-based classroom app, and data visualization in an expense tracking app.
 
-5. Run the application:
-- For development:
+Full-Stack React Projects will take you through the process of preparing the development environment for MERN stack-based web development, creating a basic skeleton app, and extending it to build six different web apps. You'll build apps for social media, classrooms, media streaming, online marketplaces with real-time bidding, and web-based games with virtual reality features. Throughout the book, you'll learn how MERN stack web development works, extend its capabilities for complex features, and gain actionable insights into creating MERN-based apps, along with exploring industry best practices to meet the ever-increasing demands of the real world.
 
-      npm run development  # or yarn development
-- Open http://localhost:3000 in your browser.
+Things you'll learn in this book:
 
-### 🛠 Technology Stack
-- **Frontend:** React with Hooks for dynamic user interfaces, integrated with Angular Material and Redux for state management.
-- **Backend:** Node.js and Express for server-side logic, MongoDB for database operations with Mongoose for data modeling.
-- **AI/ML Integration:** Utilize TensorFlow or PyTorch for intelligent recommendation systems.
-- **Payments:** Integrated with Stripe for secure online transactions.
-- **Real-Time Features:** Socket.io for live auction capabilities.
+- Extend a MERN-based application to build a variety of applications
+- Add real-time communication capabilities with Socket.IO
+- Implement data visualization features for React applications using Victory
+- Develop media streaming applications using MongoDB GridFS
+- Improve SEO for your MERN apps by implementing server-side rendering with data
+- Implement user authentication and authorization using JSON web tokens
+- Set up and use React 360 to develop user interfaces with VR capabilities
+- Make your MERN stack applications reliable and scalable with industry best practices
 
-### 📦 Features
-- **User Authentication:** Robust user login and registration processes.
-- **Product Management:** Tools for sellers to list, manage, and promote products.
-- **Order Management:** Comprehensive tracking and management of customer orders.
-- **Live Auctions:** Real-time bidding system allowing dynamic pricing.
-- **Payment Processing:** Secure handling of transactions via Stripe.
-- **Responsive Design:** Ensures a seamless shopping experience across all devices.
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1839215410) today!
 
-### 📘 Further Resources
-Explore more about MERN stack development at mernbook.com
-For detailed implementation guides and more applications using MERN stack:
- - MERN Social
- - MERN Classroom
-
-### 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
