@@ -24,18 +24,16 @@ To run this application, you will need:
    
    Update config/config.js with your Stripe API keys and other configurations.
 
-5. Install dependencies:
+4. Install dependencies:
 
          npm install  # or yarn install
 
-6. Run the application:
+5. Run the application:
 - For development:
 
       npm run development  # or yarn development
 - Open http://localhost:3000 in your browser.
 
-5. Open [localhost:3000](http://localhost:3000/) in the browser
----- 
 ### More applications built using this stack
 
 * [MERN Skeleton](https://github.com/shamahoque/mern-social/tree/second-edition)
