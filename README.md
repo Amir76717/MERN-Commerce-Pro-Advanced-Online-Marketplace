@@ -21,7 +21,7 @@ To run this application, you will need:
          cd MERN-Commerce-Pro
 
 3. Configure your environment:
-- Update config/config.js with your Stripe API keys and other configurations.
+   Update config/config.js with your Stripe API keys and other configurations.
 
 4. Install dependencies:
 
